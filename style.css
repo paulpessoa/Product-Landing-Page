@@ -1,0 +1,17 @@
+.header {
+    background-color: red;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+
+.header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.header nav ul li{
+    padding: 10px;
+    list-style: none;
+}
+
