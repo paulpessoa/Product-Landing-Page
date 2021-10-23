@@ -11,7 +11,7 @@
 <body>
 <!-- Cabeçalho e Menu -->
     <header class="header" id="header">
-        <div>
+        <div >
             <a href="#"><img id="header-img" src="./img/company.logo.PNG" alt="oi"></a>
         </div>
         <nav id="nav-bar">
@@ -24,12 +24,12 @@
     </header>
 
     <!-- Sessão de Vídeo -->
-    <section class="container" id="sec1">
-        <div> 
+    <section class="container text-center " id="sec1">
+        <div class="secvideo"> 
           <iframe
           id="video"
-          width="560"
-          height="315"
+          width="840"
+          height="472"
           src="https://www.youtube.com/embed/reYD786Imeg"
           title="YouTube video player"
           frameborder="0"
@@ -40,26 +40,26 @@
     
     <!-- Sessão Benefícios -->
     <section class="container" id="sec2">
-        <div class="row"> 
-            <div class="benefits1">
+        <div class="row " > 
+            <div class="benefits1 col-sm-4 text-center">
                     <div>
-                        <img src="#" alt="oi" srcset="oi">
+                        <img src="./img/cafe.jpeg" alt="oi" width="100px">
                     </div>
                     <h2>Benefit Title</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             
-            <div class="benefits2">
+            <div class="benefits2 col-sm-4 text-center">
                     <div>
-                        <img src="#" alt="oi" srcset="oi">
+                        <img src="./img/cafe.jpeg" alt="oi" width="100px">
                     </div>
                     <h2>Benefit Title</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             
-            <div class="benefits3">
+            <div class="benefits3 col-sm-4 text-center">
                     <div>
-                        <img src="#" alt="oi" srcset="oi">
+                        <img src="./img/cafe.jpeg" alt="oi" width="100px">
                     </div>
                     <h2>Benefit Title</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -68,40 +68,50 @@
     </section>
 
     <!-- Sessão Formulário -->
-    <section class="container" id="sec3">
+    <section class="container text-center secform" id="sec3">
         <form id="form" target="_blank" action="https://www.freecodecamp.com/email-submit">
-            <label for="email">E-mail:</label><br>
-            <input type="text" id="email" name="fname"><br>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="lname">
-            <input type="submit" value="Send" id="submit">
+            
+            <div class="form-group"></div>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="mail@mail.com "><br>
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="lname">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Send" id="submit" class="btn btn-primary">
+            </div>
         </form>
     </section>
 
     <!-- Sessão Produtos -->
     <section class="container" id="sec4">
         <div class="row">
-            <div>
+            <div class="card col-sm-4 secprod text-center">
                 <h2>Product 1</h2>
                 <h2>R$ 259,00</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <button>Buy</button>
+                <button class="btn btn-primary">Buy</button>
             </div>
-            <div>
+            <div class="card col-sm-4 secprod text-center">
                 <h2>Product 1</h2>
                 <h2>R$ 259,00</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <button>Buy</button>
+                <button class="btn btn-primary">Buy</button>
             </div>
-            <div>
+            <div class="card col-sm-4 secprod text-center">
                 <h2>Product 1</h2>
                 <h2>R$ 259,00</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <button>Buy</button>
+                <button class="btn btn-primary">Buy</button>
             </div>
         </div>
     </section>
-
+    <!-- Script de Testes da FreeCodeCamp -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+    <!-- Scripts Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
