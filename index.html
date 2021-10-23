@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -15,15 +16,91 @@
         </div>
         <nav id="nav-bar">
             <ul>
-                <li><a href="menu1" class="nav-link">Menu1</a></li>
-                <li><a href="menu2" class="nav-link">Menu2</a></li>
-                <li><a href="menu3" class="nav-link">Menu3</a></li>
+                <li><a href="#sec1" class="nav-link">About</a></li>
+                <li><a href="#sec2" class="nav-link">Products</a></li>
+                <li><a href="#sec3" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="container" id="sec1">
+        <div> 
+          <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/reYD786Imeg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>   
+    </section>
     
 
 
+<section class="container" id="sec2">
+    <div class="row"> 
+        <div class="benefits1">
+                <div>
+                    <img src="#" alt="oi" srcset="oi">
+                </div>
+                <h2>Benefit Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        
+        <div class="benefits2">
+                <div>
+                    <img src="#" alt="oi" srcset="oi">
+                </div>
+                <h2>Benefit Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        
+        <div class="benefits3">
+                <div>
+                    <img src="#" alt="oi" srcset="oi">
+                </div>
+                <h2>Benefit Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+  </section>
+
+  
+  <section class="container" id="sec3">
+    <form target="_blank" action="https://www.freecodecamp.com/email-submit">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+        <input type="submit" value="Send" id="submit">
+      </form>
+</section>
+
+
+<section class="container" id="sec4">
+      <div class="row">
+        <div>
+            <h2>Product 1</h2>
+            <h2>R$ 259,00</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <button>Buy</button>
+        </div>
+        <div>
+            <h2>Product 1</h2>
+            <h2>R$ 259,00</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <button>Buy</button>
+        </div>
+        <div>
+            <h2>Product 1</h2>
+            <h2>R$ 259,00</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <button>Buy</button>
+        </div>
+      </div>
+</section>
 
 
 </body>
